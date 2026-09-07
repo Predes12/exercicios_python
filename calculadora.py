@@ -1,6 +1,6 @@
-nun1 = float(input("qual numero: "))
-nun2 = float(input("qual numero: "))
-conta= input("qual sinal /,*,+,-: ")
+nun1 = float(input("Qual número: "))
+nun2 = float(input("Qual número: "))
+conta = input("Qual sinal /, *, +, -: ")
 
 if conta == "/":
     print(nun1 / nun2)
@@ -11,4 +11,4 @@ elif conta == "+":
 elif conta == "-":
     print(nun1 - nun2)
 else:
-    print("numero ivalido")
+    print("Número inválido")

@@ -1,9 +1,9 @@
-nome= input("digite seu nome: ")
-total_De_letras=len(nome)
+nome = input("Digite seu nome: ")
+total_De_letras = len(nome)
 
-if total_De_letras<=4 :
-    print("seu nome e curto")
-elif total_De_letras <=6:
-    print("seu nome e normal")
+if total_De_letras <= 4:
+    print("Seu nome é curto")
+elif total_De_letras <= 6:
+    print("Seu nome é normal")
 else:
-    print("seu nome e muito grande")
+    print("Seu nome é muito grande")

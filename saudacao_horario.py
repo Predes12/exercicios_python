@@ -1,9 +1,9 @@
-horario= input("qual o horario: ")
-int_horario= int(horario)
+horario = input("Qual é o horário: ")
+int_horario = int(horario)
 
-if int_horario>=18 :
-    print("boa noite")
-elif int_horario >=12 :
-    print("boa tarde")
+if int_horario >= 18:
+    print("Boa noite")
+elif int_horario >= 12:
+    print("Boa tarde")
 else:
-    print("bom dia")
+    print("Bom dia")

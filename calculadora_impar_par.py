@@ -1,12 +1,12 @@
-numero = input("digite um numero inteiro: ")
+numero = input("Digite um número inteiro: ")
 try:
- int_numero = int(numero)
+    int_numero = int(numero)
 
- if int_numero % 2:
-    print("seu numero e impar")
- else :
-    print("seu numero e par")
+    if int_numero % 2:
+        print("Seu número é ímpar")
+    else:
+        print("Seu número é par")
 
 except:
- if numero != int :
-     print("seu numero nao e inteiro")
+    if numero != int:
+        print("Seu número não é inteiro")
